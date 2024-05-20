@@ -1,0 +1,47 @@
+
+.titrePortraits
+{
+  transform: none;
+  color: rgb(54, 52, 53);
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin:50px 0;
+  text-align: center;
+  
+  }
+
+.imgPortrait{
+    width:301px;
+    float:left;
+    shape-outside: margin-box;
+    margin:0 20px 5px 0;
+}
+.containerTousPortraits{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{max-width: 800px;background: #f1f1f1;
+    margin: 0 10px 40px 10px;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);}
+
+.container::after
+{content:"";
+display: block;
+clear:both;
+}
+.container p {line-height:1.8;}
+
+.classeDescriptionChiens{
+    font-size: 18px;
+    color: rgb(54, 52, 53);
+   
+}
+
+

@@ -1,0 +1,33 @@
+#murDePhotos{
+  display: flex;
+  justify-content: center;
+}
+
+#containerMur{
+    padding:0;
+     display:inline-flex;
+     flex-flow: row;
+     flex-wrap: wrap;
+     max-width:1320px;
+     justify-content: center;
+     margin-bottom: 4vh;
+    
+     
+   }
+   #containerMur li img
+   {
+     width:330px;
+     height: 290px;
+     object-fit:cover;
+     overflow: hidden;
+     margin-bottom: -4px; 
+     z-index: 3;
+   }
+   #container1{
+     display: inline-flex;
+     justify-content: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+   }
+
+  

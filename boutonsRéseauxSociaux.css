@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,500;1,400&family=Sriracha&display=swap');
+.containerBouton{
+    height:10vh;
+}
+.boutonsReseaux{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    height:10vh;
+    display:flex;
+    place-items: center;
+    background: linear-gradient(to bottom left, #dad4ec, #f3e7e9);
+    justify-content: center;
+    
+}
+.boutonsReseaux .button
+{
+    background-color: white;
+    width:56px;
+    height:56px;
+    float:left;
+    border-radius: 50px;
+    margin:0 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    color:rgb(54, 52, 53);
+}
+
+
+
+
+.button .s-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:56px;
+    height:56px;
+    border-radius: 50%;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    
+}
+.button .s-icon i{
+    font-size: 24px;
+   
+}
+.button span {
+    font-size:18px;
+    font-weight: 600;
+    text-transform: none;
+    
+}
+
+@media only screen and (max-width: 480px) {
+.boutonsReseaux{
+    margin:0;
+    margin-bottom: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    display: inline-flex;
+    height:10vh;
+    width:100%;
+    place-items: center;
+    background: linear-gradient(to bottom left, #dad4ec, #f3e7e9);
+    justify-content: center;
+}
+}
