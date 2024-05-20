@@ -1,3 +1,5 @@
+ <?php require('src/header.php') ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -38,9 +40,9 @@
 </head>
 
 <body>
-  <?php include('src/header.php')?>
+ 
     <!--Paragraphe Chiots disponibles+Présentation-->
-    <div class="parag" style=" color:rgb(54, 52, 53);display:flex;justify-content:center;
+    <div class="parag" style=" color:rgb (54, 52, 53);display:flex;justify-content:center;
     font-weight: 100;
     margin:40px 20px;
     font-size:18px;
@@ -76,9 +78,9 @@
         <li id="containerPhoto6"><img id="photoMur6" src="berger-blanc-suisse/berger-blanc-suisse6.jpg"onclick="lienDiapo(6)"onmouseenter="expandImage(6)"onmouseleave="nonExpandImage(6)"
           style="object-position: 0 -200px;"></li>
         <li id="containerPhoto7"><img id="photoMur7" src="berger-blanc-suisse/berger-blanc-suisse7.jpg"onclick="lienDiapo(7)"onmouseenter="expandImage(7)"onmouseleave="nonExpandImage(7)"
-          style="object-position: 0 -220px;"></li>
+          style="object-position: 0 -220 px;"></li>
         <li id="containerPhoto8"><img id="photoMur8" src="berger-blanc-suisse/berger-blanc-suisse8.jpg"onclick="lienDiapo(8)"onmouseenter="expandImage(8)"onmouseleave="nonExpandImage(8)"
-          style="object-position: 0 -220px;"></li>
+          style="object-position: 0 -220 px;"></li>
 
         <li id="containerPhoto9"><img id="photoMur9" src="berger-blanc-suisse/berger-blanc-suisse9.jpg"onclick="lienDiapo(9)"onmouseenter="expandImage(9)"onmouseleave="nonExpandImage(9)"
           style="object-position: 0px -170px;"></li>
